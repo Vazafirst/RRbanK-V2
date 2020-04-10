@@ -1,0 +1,88 @@
+.main{
+    margin: 0 auto;
+    color: black;
+    background-color: rgba(176,176,176,0.5);
+    height: 550px;
+    width: 800px;
+    margin-top: 30px;
+    border: 3px #000 solid;
+    text-align: center;
+}
+.campo{
+    border: 2px black solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background-color: rgba(51,51,51,0.5);
+    width: 230px;
+    height: 22px;
+}
+.campo:focus{
+    border: 2px blue solid;
+    background-color: rgba(51,51,51,1);
+    font-weight: bold;
+}
+p{
+    color: black;
+    font: 20px LemonMilklight;
+    margin: 0 auto;
+    padding: 13px;
+}
+.select{
+    border: 2px black solid;
+    background-color: rgba(51,51,51,0.5);
+    border-radius: 5px;
+    color: white;
+    width: 237px;
+    height: 28px;
+}
+.select:focus{
+    border: 1px blue solid;
+    background-color: rgba(51,51,51,1);
+}
+
+.textarea{
+    width: 95%;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    resize: none;
+    color: white;
+    border: 2px black solid;
+    background-color: rgba(51,51,51,0.9);
+    border-radius: 5px;
+}
+.textarea:focus{
+    background-color: rgba(0,0,0,0.7);
+    border: 2px blue solid;
+}
+
+h1{
+    font-size: 45px;
+    text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+}
+
+.btn{
+    margin-top: 5px;
+    font:17px arial, sans-serif;
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    border:1px solid white;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn:hover{
+    border: 1px orange solid;
+    font: 19px arial;
+    background-color: rgba(0,0,0,0.6);
+}
+.btn:active{
+    border: 0px;
+    background-color: #696969;
+    cursor: none;
+    background-color: rgba(0,0,0,0.4);
+    font-weight: bold;
+}

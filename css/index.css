@@ -1,0 +1,206 @@
+h1{
+    font: 50px arial;
+    text-shadow: 1px 3px blue, -2px -2px blue;
+    text-align: center; 
+    color: aquamarine; 
+}
+#loginghr{
+    position: absolute;
+    width: 400px;
+    top: 125px; bottom: 0;
+    left: 0; right: 0;
+}
+
+#plm{
+    left: 0; 
+    right: 0; 
+    top: 40px;
+    bottom: 0;
+    text-shadow: 1px 3px black, -2px -2px black;
+    margin: 0 auto;
+    font-size: 22px;
+    white-space: normal; 
+    color: #00BFFF; 
+    position: absolute;
+}
+
+.fgpass{
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #A9A9A9;
+}
+.fgpass:hover{
+    color: #FFCC02;
+}
+.fgpass:active{
+    color: white;
+}
+
+.lr{
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    border: 5px #a9a9a9 solid;
+    width: 400px;
+    height: 600px;
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 5;
+}
+.indexbtn{
+    width: 100px;
+    height: 45px;
+    border:1px solid #696969;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 335px;
+    cursor: pointer;
+    background-color: #DCDCDC;
+    color: #000;
+    text-align: center;
+    font:17px arial, sans-serif;
+    border-radius: 10px;
+}
+.indexbtn:hover{
+    border: 2px #6A5ACD solid;
+    color: #000;
+    font:19px arial, sans-serif;
+}
+.indexbtn:active{
+    background-color: #696969;
+    font:20px arial, sans-serif;
+    cursor: none;
+}
+
+.campo{
+    position: absolute;
+    height: 35px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#user{
+    margin-top: 220px;
+}
+
+.campo:focus{
+    border: 3px #0000CD solid;
+    font-size: 27px;    
+}
+.indexbtnac{
+    color: white;
+    position: absolute;
+    background-color: transparent;
+    border: 0px;
+    width: 130px;
+    top: 0;
+    bottom: 0;
+    left: 138px;
+    bottom: 0;
+    margin: auto;
+    margin-top: 500px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 50px;
+}
+.indexbtnac:active{
+    background-color: #A9A9A9;
+}
+.indexbtnac:hover{
+    color: #00D3F0;
+    font-weight: bold;
+}
+@media screen and (max-width: 1300px){
+    h1{
+        font-size: 86px;
+        margin-top: 80px;
+        border-top: 1px white solid;
+        border-bottom: 1px white solid;
+    }
+    #plm{
+    font-size: 28px;
+}
+    .lr{
+        width: auto;
+        margin: 5px;
+        border: 2px #a9a9a9 solid;
+        height: 850px;
+        min-width: 80%;
+    }
+    #loginghr{
+        display: none;
+    }
+    .campo{
+        position: absolute;
+        height: 25px;
+        font:25px arial, sans-serif;
+        font-weight: bold;
+        width: 85%;
+        height: 50px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    #user{
+        margin-top: 260px;
+    }
+    #pass{
+        margin-top: 360px;
+    }
+
+    #loginghr{
+        position: absolute;
+        width: 100%;
+        color: white;
+        top: 125px; bottom: 0;
+        left: 0; right: 0;
+    }
+    .indexbtn{
+        width: 250px;
+        height: 100px;
+        margin-top: 520px;
+        font:28px arial, sans-serif;
+        font-weight: bold;
+    }
+    .fgpass{
+        position: absolute;
+        top: 460px;
+        height: 50px;
+        bottom: 0;
+        left: 0;
+        font-size: 28px;
+        right: 0;
+        margin: 0 auto;
+        color: #A9A9A9;
+    }
+    .indexbtnac{
+        width: 250px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 650px;
+        cursor: pointer;
+        font-size: 30px;
+        height: 150px;
+    }
+
+}

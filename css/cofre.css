@@ -1,0 +1,49 @@
+.container{
+    margin: 5px auto;
+    margin-top: 100px;
+    text-align: center;
+    border: 1px #000 solid;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    min-height: 500px;
+    height: auto;
+} 
+.cc{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 400px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.8);
+}
+#CEM{
+    font-size: 30px;
+    color: rgba(187,245,10,1);
+}
+.SA{
+    background-color: rgba(0,255,255,0.5);
+    background-size: 10px;
+    width: 95%;
+    margin: 0 auto;
+    border: 2px black solid;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.btndoar{
+    width: 200px;
+    height: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 1px black solid;
+    background-color: chocolate;
+    animation: lul 2s linear;
+}
+.btndoar:hover{
+    background-color: orangered;
+    font-size: 28px;
+}

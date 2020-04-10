@@ -1,0 +1,267 @@
+.divHcontent{
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    border: 1px #000 solid;
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    min-height: 90%;
+}
+.divHcontent > .inidiv{
+    background-color: rgba(0,0,0,0.9);
+    min-width: 100%;
+    margin: 0 auto;
+    min-height: 435px;
+    cursor: pointer;
+    border-bottom: 1px #005998 solid;
+    height: auto;
+    max-height: 500px;
+    position:relative;
+    display: inline-block;
+}
+
+.inidiv:hover{
+    background-color: rgba(0,0,0,1);
+}
+#lot{
+    background-image: url("../static/img/flot-min.jpg");
+    background-size: 100%;
+}
+#lot:hover{
+    border: 1px #005998 solid;
+    background-size: 105%;
+}
+#lot:active{
+    background-size: 110%;
+}
+#lot:hover #Title{
+    color: yellowgreen;
+    font-size: 38px;
+}
+
+#bank{
+    background-image: url("../static/img/mbank-min.jpg");
+    font-size: 20px;
+    background-size: 100%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#bank:hover{
+    border: 1px #005998 solid;
+    background-size: 105%;
+}
+#bank:hover #Title{
+    color: yellowgreen;
+    font-size: 38px;
+}
+
+#cofre{
+    background-image: url("../static/img/cofre-min.jpg");
+    margin-top: -5px;
+
+}
+#cofre:hover{
+    border: 1px #005998 solid;
+    background-size: 20%;
+}
+#cofre:hover #Title{
+    color: yellowgreen;
+    font-size: 38px;
+}
+
+#eventos{
+    background-image: url("../static/img/evfundo-min.jpg");
+    margin-top: -5px;
+}
+#eventos:hover{
+    border: 1px #005998 solid;
+    background-size: 105%;
+}
+#eventos:hover #Title{
+    color: yellowgreen;
+    font-size: 38px;
+}
+
+#Title{
+    position: absolute;
+    color: #00D3F0;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.9);
+    font-family: Comic Sans, fantasy;
+    left: 0;
+    right: 0;
+}
+#lotUns{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 370px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 80px;
+    margin: 0 auto;
+    right: 0;
+}
+#lotPs{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 370px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 380px;
+    margin: 0 auto;
+    right: 0;
+}
+#sortnum{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 150px;
+    border: 13px #00D3F0 double;
+}
+#num{
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+    color: white;
+}
+#bankSAM{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 200px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 100px;
+    margin: 0 auto;
+    right: 0;
+}
+#bankSA{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0,255,255,0.8);
+    width: 370px;
+    left: 0;
+    font-family: Verdana, sans-serif;
+    top: 165px;
+    margin: 0 auto;
+    right: 0;
+}
+#bankSER{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 300px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 250px;
+    margin: 0 auto;
+    right: 0;
+}
+#bankSF{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0,255,255,0.8);
+    width: 370px;
+    left: 0;
+    font-family: Verdana, sans-serif;
+    top: 315px;
+    margin: 0 auto;
+    right: 0;
+}
+#CEM{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 370px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 100px;
+    margin: 0 auto;
+    right: 0;
+}
+#CEV{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 370px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 230px;
+    margin: 0 auto;
+    right: 0;
+}
+#SAEM{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0,255,255,0.5);
+    width: 370px;
+    left: 0;
+    font-family: Verdana, sans-serif;
+    top: 165px;
+    margin: 0 auto;
+    right: 0;
+}
+#SAEV{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0,255,255,0.5);
+    width: 370px;
+    left: 0;
+    font-family: Verdana, sans-serif;
+    top: 295px;
+    margin: 0 auto;
+    right: 0;
+}
+#EAT{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    width: 370px;
+    left: 0;
+    font-family: Arial, fantasy;
+    top: 60px;
+    margin: 0 auto;
+    right: 0;
+}
+#EAE{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255,255,0,0.8);
+    width: 500px;
+    left: 0;
+    font-family: Verdana, sans-serif;
+    top: 140px;
+    margin: 0 auto;
+    right: 0;
+}

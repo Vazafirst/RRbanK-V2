@@ -1,0 +1,108 @@
+.container{
+            margin: 5px auto;
+            margin-top: 100px;
+            text-align: center;
+            border: 1px #000 solid;
+            width: 100%;
+            background-color: rgba(0,0,0,0.5);
+            min-height: 700px;
+            height: auto;
+        }
+        .faposta{
+            margin: 10px auto;
+            margin-top: -5px;
+            text-align: center;
+            border: 1px #000 solid;
+            width: 99%;
+            background-color: rgba(0,0,0,0.5);
+            height: auto;
+            min-height: 90%;
+        }
+
+        .numap {
+            border: 1px #005998 solid;
+            background-color: #1C1C1C;
+            width: 50px;
+            height: 50px;
+            margin: 10px auto;
+            margin-left: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+            position:relative;
+            display: inline-block;
+        }  
+        #wclot{
+            color: #DAA520;
+            font-size: 35px;
+            font-weight: bold;
+            font-family: Comic Sans, fantasy;
+            left: 0;
+            right: 0;
+        }
+        #sortnum{
+            width: 200px;
+            height: 200px;
+            background-color: #000;
+            border-radius: 100px;
+            margin: auto;
+            margin-top: 30px;
+            border: 20px #00D3F0 ridge;
+            animation:spin 1.5s linear;
+        }
+        @keyframes 
+        spin { 
+            0% { -webkit-transform: rotate(0deg); transform:rotate(0deg); } 
+            100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } 
+        }
+
+        #sortnum:hover #num{
+            font-size: 45px;
+            margin-top: -10px;
+        }
+
+        #num{
+            font-size: 40px;
+            text-align: center;
+            position: relative;
+            top: 30%;
+            margin: 0 auto;
+            animation: color 1s 2s infinite;
+            color: wheat;
+        }
+        @keyframes 
+        color { 
+            0% { color: green; } 
+            10% { color: white; } 
+            25% { color: green; } 
+            50% { color: white; } 
+            75% { color: green;} 
+            90% { color: white; } 
+            100% { color: green;} 
+        }
+        #numex{
+            position: relative;
+            bottom: 0;
+            top: 10px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        #FSA{
+            font-size: 30px;
+        }
+        #btnnum{
+            width: 50px;
+            height: 50px;
+            background-color: transparent;
+            border: 0px;
+            color: white;
+            cursor: pointer;
+        }
+        #btnnum:hover{
+            background-color: aqua;
+            color: black;
+            font-size: 18px;
+        }
+        #btnnum:active{
+            font-size: 22px;
+        }

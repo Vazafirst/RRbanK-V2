@@ -1,0 +1,19 @@
+body{
+    background-image: url("../static/img/bgdivhome5.jpg");
+    background-color: #202220;
+    color: white;
+    overflow: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0 auto !important;
+    width: 100%;
+    font-family: Verdana;
+    font-size: 100%;
+    max-width: 100%;
+}
+html, body {
+    height: 100%;
+}
+p{
+    font-size: 20px;
+}
